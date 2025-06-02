@@ -13,3 +13,6 @@ x
 This time series is chaotic with no clearly defined period. The series does not converge or diverge, and the trajectory is highly sensitive to initial conditions. This benchmark problem is used in the neural network and fuzzy modeling research communities.
 
 To obtain the time series value at integer points, the fourth-order Runge-Kutta method was used to find the numerical solution to the previous MG equation. It was assumed that x(0)=1.2, τ=17, and x(t)=0 for t<0. The result was saved in the file mgdata.dat.
+
+
+https://fr.mathworks.com/help/fuzzy/predict-chaotic-time-series-code.html
